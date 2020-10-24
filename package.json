@@ -11,5 +11,13 @@
     "keywords": [
         "vhosurtest",
         "vhosur"
-    ]
+    ],
+    "license": "MIT",
+    "main": "index.js",
+    "repository": "vhosurtest/vhosur",
+    "author": {
+        "name": "vhosurtest",
+        "email": "vasudeva.hosur@outlook.com",
+        "url": "https://twitter.com/perfforlife"
+    }
 }
