@@ -6,6 +6,7 @@
         "vhosur": "index.js"
     },
     "dependencies": {
+        "cli-check-node": "^1.3.4",
         "cli-welcome": "^2.2.2"
     },
     "keywords": [
