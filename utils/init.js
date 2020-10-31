@@ -4,7 +4,7 @@ const checkNode = require('cli-check-node');
 const handleUnhandledErrors = require('cli-handle-unhandled');
 
 module.exports = () => {
-    //This function call defaults to this implementation.
+    //handleUnhandledErrors() defaults to this implementation.
     // process.on('unhandledRejection', (err) => {
     //     console.log('unhandledRejection', err);
     // })
