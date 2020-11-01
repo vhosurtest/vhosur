@@ -3,7 +3,7 @@ const welcome = require('cli-welcome');
 const checkNode = require('cli-check-node');
 const handleUnhandledErrors = require('cli-handle-unhandled');
 
-module.exports = () => {
+module.exports = (clear) => {
     //handleUnhandledErrors() defaults to this implementation.
     // process.on('unhandledRejection', (err) => {
     //     console.log('unhandledRejection', err);
@@ -21,6 +21,6 @@ module.exports = () => {
         bgColor: `#FADC00`,
         color: `#000000`,
         bold: true,
-        clear: true,
-    })
+        clear: clear,
+    });
 }
