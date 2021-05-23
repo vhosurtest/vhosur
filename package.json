@@ -1,6 +1,6 @@
 {
     "name": "vhosur",
-    "version": "2.3.1",
+    "version": "2.4.0",
     "description": "Get to know vhosur via `npx vhosur`",
     "bin": {
         "vhosur": "index.js"
