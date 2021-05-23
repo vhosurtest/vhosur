@@ -23,6 +23,8 @@ const alert = require('cli-alerts');
     //Show debug info if --debug is issued
     debug(cli.flags.debug);
 
+    console.log('Test message');
+
     /*const err = new Error('Something went wrong');
     // Syntax: handleError(err_name, err_obj, show_error_obj, exit_node_process);
     handleError('Custom Error', err, true, true);
